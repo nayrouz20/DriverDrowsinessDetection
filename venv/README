@@ -1,0 +1,18 @@
+# Driver Drowsiness Detection – CNN vs Vision Transformer
+
+##  Objectif
+Ce projet compare les performances d’un **CNN (VGG16)** et d’un **Vision Transformer (ViT)** pour la détection de la somnolence des conducteurs à partir d’images.
+
+##  Structure
+- `src/train_vit.py` : script d’entraînement du modèle ViT
+- `src/test_vit.py` : script de test du modèle ViT
+- `src/test_cnn.py` : script de test du modèle CNN (VGG16)
+- `models/` : contient les modèles entraînés (`.pth`)
+- `requirements.txt` : dépendances Python
+
+##  Utilisation
+### Entraînement ViT
+```bash
+python src/train_vit.py
+python src/test_vit.py
+python src/test_cnn.py
